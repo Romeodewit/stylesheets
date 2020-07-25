@@ -1,0 +1,259 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+
+header {
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    height: 75px;
+    position: relative;
+    margin: 0;
+    padding: 50px 200px;
+}
+
+header nav {
+}
+
+header nav ul li {
+    display: inline-block;
+    margin: 0 100px;
+    line-height: 2.5;
+    margin-top: 0;
+}
+header nav ul li a{
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.container {
+    border: 2px solid black;
+    padding: 10px;
+    margin: 10px 200px;
+}
+.colors section {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+div h2 {
+    padding-top: 30px;
+    padding-left: 70px;
+    margin-bottom: 30px;
+}
+
+
+/* Pink styles */
+div .pink li {
+    display: inline-flex;
+    height: 100px;
+    width: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+li#pi1 {
+    background-color: #838383; 
+    padding: 40px 20px;
+    font-weight: bold;
+}
+li#pi2 {
+    background-color: #ad9d9d;
+    padding: 40px 20px;
+    font-weight: bold;
+}
+li#pi3 {
+    background-color: #d9adad;
+    padding: 40px 20px;
+    font-weight: bold;
+}
+li#pi4 {
+    background-color: #fccbcb;
+    padding: 40px 20px;
+    font-weight: bold;
+}
+
+
+/* Professional Styles */
+div .pro li {
+    display: inline-flex;
+    height: 100px;
+    width: 100px;
+    margin: 0;
+    padding: 0;
+
+}
+
+li#po1 {
+    background-color: #222831;
+    padding: 40px 20px;
+    font-weight: bold;
+}
+li#po2 {
+    background-color: #393e46;
+    padding: 40px 20px;
+    font-weight: bold;
+}
+li#po3{
+    background-color: #00adb5;
+    padding: 40px 20px;
+    font-weight: bold;
+} 
+li#po4{
+    background-color: #eeeeee;
+    padding: 40px 20px;
+    font-weight: bold;
+}
+
+/* Summer Styles */
+div .summer li {
+    display: inline-flex;
+    height: 100px;
+    width: 100px;
+    margin: 0;
+    padding: 0;
+
+}
+
+li#su1 {
+    background-color: #f9ed69;
+    padding: 40px 20px;
+    font-weight: bold;
+}
+li#su2 {
+    background-color: #f08a5d;
+    padding: 40px 20px;
+    font-weight: bold;
+}
+li#su3 {
+    background-color: #b83b5e;
+    padding: 40px 20px;
+    font-weight: bold;
+}
+li#su4 {
+    background-color: #6a2c70;
+    padding: 40px 20px;
+    font-weight: bold;
+}
+
+/* fonts */
+section#font {
+    display: flex;
+
+}
+
+section#font p{
+    padding: 10px 0 10px 0px;
+}
+
+/* font 1 */
+.font1 h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 22px;
+    font-weight: 400;
+    font-weight: 400i;
+}
+
+#t1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+#t2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+#t3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    font-style: italic;
+}
+
+/* font 2 */
+.font2 h3 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 22px;
+}
+#t4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 200;
+    font-style: italic;
+}
+#t5 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+#t6 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+/* font 3 */
+.font3 h3 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 22px;
+}
+
+#t7 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: italic;
+}
+#t8 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+#t9 {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+section#font .font{
+    margin: 0 30px 30px 70px;
+    width: 600px;
+}
+
+div .font p {
+    box-sizing: border-box;
+    letter-spacing: 5px;
+
+}
+
+/* textstyles */
+
+.text {
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+
+.text h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.text h3 {
+    font-size: 24px;
+    
+}
+
+.text h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
